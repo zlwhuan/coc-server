@@ -17,7 +17,7 @@ public class UserServiceImpl implements UserService {
         User user = new User();
         user.setTag("#QLCR9URR");
         user.setUsername("测试名称");
-        String detail = restTemplate.getForObject("https://api.clashofclans.com/v1/players/#QLCR9URR", String.class);
+        String detail = restTemplate.getForObject("https://api.clashofclans.com/v1/players/%23QLCR9URR", String.class);
         user.setDetail(detail);
         return user;
     }

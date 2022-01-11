@@ -60,4 +60,22 @@
         </plugins>
     </build>
 
+    <!--多环境参数配置-->
+    <profiles>
+        <profile>
+            <id>local</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <profilesActive>dev</profilesActive>
+            </properties>
+        </profile>
+        <profile>
+            <id>prd</id>
+            <properties>
+                <profilesActive>prd</profilesActive>
+            </properties>
+        </profile>
+    </profiles>
 </project>
