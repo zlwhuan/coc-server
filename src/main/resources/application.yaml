@@ -2,15 +2,6 @@ server:
   port: 8080
   servlet:
     context-path: /
-spring:
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://10.238.221.152:3306/test?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&allowMultiQueries=true
-    username: root
-    password: Admin@123
-#    url: jdbc:mysql://127.0.0.1:3306/coc?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&allowMultiQueries=true
-#    username: root
-#    password: 41ee6db0eeb5aad0
     initialSize: 50
     minIdle: 15
     maxActive: 500
