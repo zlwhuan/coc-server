@@ -1,6 +1,6 @@
-package com.coc.cocserver.config;
+package com.coc.config;
 
-import com.coc.cocserver.service.CocApi;
+import com.coc.service.CocApi;
 import feign.Feign;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

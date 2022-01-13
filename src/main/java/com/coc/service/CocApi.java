@@ -1,4 +1,4 @@
-package com.coc.cocserver.service;
+package com.coc.service;
 
 import feign.Body;
 import feign.Param;

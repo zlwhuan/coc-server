@@ -1,4 +1,4 @@
-package com.coc.cocserver.config;
+package com.coc.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;

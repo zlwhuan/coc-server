@@ -1,4 +1,4 @@
-package com.coc.cocserver.config;
+package com.coc.config;
 
 import feign.RequestInterceptor;
 import feign.RequestTemplate;

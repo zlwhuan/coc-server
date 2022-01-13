@@ -1,4 +1,4 @@
-package com.coc.cocserver.model;
+package com.coc.model;
 
 import lombok.Data;
 
